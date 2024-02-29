@@ -1,0 +1,184 @@
+@font-face {
+  font-family: Calc;
+  src: url(/fonts/ti83.ttf);
+}
+
+
+body {
+  background-color: #1e1e1e;
+  position:relative;
+  overflow-x: hidden;
+  font-size:1em;
+  padding:.25em;
+  border:1em;
+}
+
+#header {
+  font-family:'Calc';
+  color: #89ff89;
+  font-size:4.75em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  padding-top:0.2em;
+  margin:0 auto;
+  border-bottom:.125em solid #89ff89;
+  border-top:.125em solid #89ff89;
+  text-shadow: 0 2px 4px #89ff89;
+
+}
+
+#title {
+  font-family:'Calc';
+  color: #ff6464;
+  font-size:2em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  text-shadow: 0 2px 4px #ff8989;
+}
+
+#subtitle {
+  font-family:'Calc';
+  color: #89ff89;
+  font-size:1.75em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  text-shadow: 0 2px 4px #89ff89;
+  margin-top: -.5em;
+}
+
+a { 
+  color: #89ff89;
+} 
+
+h1{
+  font-family:'Calc';
+  color: #89ff89;
+  font-size:4.75em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  padding-top:0.2em;
+  margin:0 auto;
+  border-bottom:.125em solid #89ff89;
+  border-top:.125em solid #89ff89;
+  text-shadow: 0 2px 4px #89ff89;
+}
+
+h2 {
+  font-family:'Calc';
+  color: #ff6464;
+  font-size:2em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  text-shadow: 0 2px 4px #ff8989;
+}
+
+h3 {
+  font-family:'Calc';
+  color: #89ff89;
+  font-size:1.75em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  text-shadow: 0 2px 4px #89ff89;
+  margin-top: -.5em;
+}
+
+h4
+{
+  font-family: Calc;
+  color: #46bb46;
+  font-size:1.5em;
+  margin:0 auto;
+}
+
+h5 {
+  font-family:'Calc';
+  color: #ff6464;
+  font-size:.75em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto; 
+}
+
+h6 {
+  font-family:'Calc';
+  color: rgb(183, 132, 231);
+  margin-bottom: 15px;
+  margin-top: 0px;
+  font-size: .75em;
+}
+
+img {
+  border: 3px solid #1e1e1e;
+  border-bottom: 0px;
+}
+
+.flex-container {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.model {
+  font-family: Calc;
+  color: #46bb46;
+  font-size: .75em;
+  text-align: center;
+  margin:.1em;
+  padding-top: .5em;
+  border: 1px solid #89ff89;
+  align-content: center;
+}
+
+.card {
+  border: 1px solid #89ff89;
+}
+
+.calc-img {
+  border: 1px solid #89ff89;
+  margin: 1px;
+  margin-bottom: -.25em;
+}
+.calc-img-wide {
+  border: 1px solid #89ff89;
+  margin: 1px;
+  margin-bottom: -.25em;
+}
+
+.button1 {
+  font-family: Calc;
+  background: #1e1e1e;
+  border: none;
+  display: block;
+  height: 10px;
+  width: 50px;
+  cursor: pointer;
+}
+
+
+.button3 {
+  font-family: Calc;
+  background: #d46fd4;
+  border-color: rgb(8, 8, 8);
+  border-width: 3px;
+  display: block;
+  cursor: pointer;
+  height: 2.75em;
+}
+.button3:hover {
+  font-family: Calc;
+  background: black;
+  color: #d46fd4;
+  border-color: #d46fd4;
+  border-width: 3x;
+}
