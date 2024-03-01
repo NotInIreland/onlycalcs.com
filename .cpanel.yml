@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/onlycalc/repositories/onlycalcs.com
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp /css/style.css $DEPLOYPATH
+    - index.html $DEPLOYPATH
+    - /css/style.css $DEPLOYPATH
